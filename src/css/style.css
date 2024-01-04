@@ -24,6 +24,12 @@
     transform: translate(-50%, -50%);
 }
 
+.container::before {
+    content: '';
+    width: 180px;
+    height: 180px;
+}
+
 .clock {
     width: 100%;
     height: 100%;
