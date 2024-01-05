@@ -68,7 +68,7 @@
 }
 
 .clock span::after {
-    content: '';
+    content: 'HOURS';
     font-size: 16px;
     position: absolute;
     bottom: -5px;
