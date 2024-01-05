@@ -5,3 +5,5 @@ let sec = document.getElementById("sec");
 let currentTime = new Date();
 
 hrs.innerHTML = currentTime.getHours();
+min.innerHTML = currentTime.getMinutes();
+sec.innerHTML = currentTime.getSeconds();
