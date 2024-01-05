@@ -58,3 +58,7 @@
     justify-content: center;
     backdrop-filter: blur(40px);
 }
+
+.clock span {
+    font-size: 80px;
+}
