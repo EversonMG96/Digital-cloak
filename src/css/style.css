@@ -68,5 +68,7 @@
 }
 
 .clock span::after {
-    
+    content: '';
+    font-size: 16px;
+    position: absolute;
 }
