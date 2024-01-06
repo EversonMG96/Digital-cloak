@@ -88,5 +88,23 @@
 }
 
 @media screen and (max-width: 600px) {
-    
+    .container {
+        width: 400px;
+        height: 90px;
+    }
+
+    .container::before {
+        width: 90px;
+        height: 90px;
+    }
+
+    .container::after {
+        width: 90px;
+        height: 90px;
+    }
+
+    .hero {
+        width: 100%;
+        min-height: 100vh; 
+    }
 }
