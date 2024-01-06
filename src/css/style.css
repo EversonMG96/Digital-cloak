@@ -87,7 +87,7 @@
     content: 'SECONDS';
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 860px) {
     .container {
        width: 400px;
        height: 90px;
@@ -102,4 +102,15 @@
         width: 90px;
         height: 90px;
     }
+
+    .clock span {
+        font-size: 40px;
+        width: 55px;
+    }
+
+    .clock span::after {
+        font-size: 8px;
+    }
 }
+
+@media screen and (max-width: 520px)
