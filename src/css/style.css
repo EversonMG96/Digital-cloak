@@ -87,7 +87,7 @@
     content: 'SECONDS';
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 920px) {
     .container {
        width: 400px;
        height: 90px;
@@ -114,5 +114,31 @@
 }
 
 @media screen and (max-width: 520px) {
-    
+    .container {
+        width: 200px;
+        height: 45px;
+    }
+ 
+    .container::after {
+        height: 45px;
+        width: 45px;
+        right: -15px;
+        bottom: -25px;  
+    }
+ 
+    .container::before {
+        width: 45px;
+        height: 45px;
+        left: -25px;
+        top: -25px;
+    }
+ 
+    .clock span {
+        font-size: 20px;
+        width: 27.5px;
+    }
+ 
+    .clock span::after {
+        font-size: 4px;
+    }  
 }
